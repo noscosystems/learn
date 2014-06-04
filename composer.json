@@ -5,7 +5,7 @@
     "type":                                 "project",
     "homepage":                             "https://github.com/noscosystems/learn",
     "license":                              "proprietary",
-    "version":                              "1.0.0",
+    "version":                              "1.0.1",
 
     "authors": [
         {
@@ -30,8 +30,8 @@
     ],
 
     "require": {
-        "noscosystems/learn-interfaces":    "*",
-        "noscosystems/learn-calculator":    "*",
+        "noscosystems/learn-interfaces":    "dev-develop",
+        "noscosystems/learn-calculator":    "2.0.0",
 
         "php":                              ">=5.3.9"
     },

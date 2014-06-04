@@ -15,6 +15,7 @@ Instructions
    - Write your code like PSR-2, unless there is a rule you would like to change.
    - Write the change(s) in a file called `PSR-custom.md` and why you prefer this style.
    - There are no wrong answers. This part is not to test if you *can* code, but *how* you prefer to code.
+6. When you have completed everything, the version number of the calculator library should be `2.0`.
 6. Don't listen to Clive.
 
 Commands
