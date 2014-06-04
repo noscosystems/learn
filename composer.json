@@ -1,0 +1,41 @@
+{
+    "name":                                 "noscosystems/learn",
+    "description":                          "Shell application to learn several standards of PHP development.",
+    "keywords":                             ["Nosco", "Systems", "composer", "psr"],
+    "type":                                 "project",
+    "homepage":                             "https://github.com/noscosystems/learn",
+    "license":                              "proprietary",
+    "version":                              "1.0.0",
+
+    "authors": [
+        {
+            "name":                         "Zander Baldwin",
+            "email":                        "mynameis@zande.rs",
+            "homepage":                     "http://mynameis.zande.rs/",
+            "role":                         "Developer"
+        }
+    ],
+
+    "minimum-stability":                    "dev",
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:noscosystems/learn-interfaces.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:noscosystems/learn-calculator.git"
+        }
+    ],
+
+    "require": {
+        "noscosystems/learn-interfaces":    "*",
+        "noscosystems/learn-calculator":    "*",
+
+        "php":                              ">=5.3.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit":                  "4.1.*"
+    }
+}
