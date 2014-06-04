@@ -30,8 +30,8 @@
     ],
 
     "require": {
-        "noscosystems/learn-interfaces":    "*",
-        "noscosystems/learn-calculator":    "*",
+        "noscosystems/learn-interfaces":    "dev-develop",
+        "noscosystems/learn-calculator":    "2.0.0",
 
         "php":                              ">=5.3.9"
     },
