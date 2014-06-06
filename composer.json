@@ -21,11 +21,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:noscosystems/learn-interfaces.git"
+            "url":  "git@github.com:noscosystems/learn-interfaces.git"
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:noscosystems/learn-calculator.git"
+            "url":  "git@github.com:noscosystems/learn-calculator.git"
         }
     ],
 
