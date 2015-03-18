@@ -12,7 +12,7 @@ Instructions
    [`noscosystems/learn-calculator`](https://github.com/noscosystems/learn-calculator).
 3. You may use as many classes as you like, and name them anything you like, as long as you have a
    class called `Nosco\Learn\Calculator\Calculator`.
-4. The library [`noscosystems/learn-interfaces`](https://github.com/noscosystems/learn-calculator)
+4. The library [`noscosystems/learn-interfaces`](https://github.com/noscosystems/learn-interfaces)
    uses **PSR-0** autoloading. Your calculator library must use **PSR-4**.
 5. Read the **PSR-1** and **PSR-2** coding standards.
    - There are many different styles of coding standards, but PSR-2 is the most common.
@@ -30,6 +30,8 @@ Instructions
 
 Commands
 --------
+
+All required commands can be executed by running the script [`run.sh`](run.sh), the contents of which is listed here for reference:
 
 ```bash
 $ git clone git@github.com:noscosystems/learn.git "./learn"
